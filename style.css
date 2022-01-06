@@ -9,18 +9,19 @@ body {
 
 h1 {
     font-size: 40px;
-    text-align: center;
+
 }
 
 .flexible-content {
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
 }
 
 .determine {
     width: 29%;
     margin-left: 10%;
     padding-left: 10px;
+    
 
 }
 
@@ -47,7 +48,10 @@ h1 {
     color: royalblue;
 }
 
-#h1-content{margin-bottom: 10px;}
+#h1-content {
+    margin-bottom: 10px;
+    text-align: center;
+}
 
 .mission-background {
     background-color: thistle;
@@ -55,6 +59,10 @@ h1 {
     margin: 10px;
     border-radius: 10px;
     padding: 15px;
+}
+
+.mission-content {
+    margin-bottom: 60px;
 }
 
 .vission-background {
@@ -76,12 +84,38 @@ h1 {
 
 .mission {
     display: flex;
-    margin-left: 180px;
+    margin-left: 150px;;
 
 }
 
 .illustrator {
     height: 80px;
     width: 120px;
+}
+
+
+
+.document-button {
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(226, 34, 12);
+    background-image: linear-gradient(rgb(0, 162, 255), rgb(221, 255, 71));
+    border-radius: 2px;
+}
+
+.doc-content {
+    display: flex;
+    margin-top: 60px;
+}
+.document-div{
+    width: 50%;
+    margin-left: 4px;
+    padding-left: 10px;
+}
+.doc {
+    width: 29%;
+    margin-left: 10%;
+    padding-left: 10px;
 
 }
+.doc img{width: 80%;}
