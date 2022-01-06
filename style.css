@@ -19,14 +19,14 @@ section {
 }
 
 .determine {
-    width: 33%;
+    width: 29%;
     margin-left: 10%;
     padding-left: 10px;
 
 }
 
 .determine img {
-    width: 70%;
+    width: 80%;
 }
 
 .headline {
@@ -50,4 +50,24 @@ section {
 
 #text-align {
     text-align: center;
+}
+
+.mission-background {
+    background-color: thistle;
+    width: 33%;
+}
+
+.vission-background {
+    background-color: slategray;
+    width: 33%
+}
+
+.goal-background {
+    background-color: tan;
+    width: 33%
+}
+
+.mission {
+    display: flex;
+
 }
