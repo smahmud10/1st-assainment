@@ -13,17 +13,20 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 10px;
+
 
 }
 
 .determine {
-    width: 29%;
+    width: 33%;
     margin-left: 10%;
+    padding-left: 10px;
 
 }
 
 .determine img {
-    width: 100%;
+    width: 70%;
 }
 
 .headline {
@@ -36,5 +39,15 @@ section {
     text-decoration: none;
     padding: 10px;
     color: rgb(226, 34, 12);
-    background-image: linear-gradient(rgb(0, 162, 255), rgb(221, 255, 71))
+    background-image: linear-gradient(rgb(0, 162, 255), rgb(221, 255, 71));
+    border-radius: 2px;
+
+}
+
+#heading-color {
+    color: royalblue;
+}
+
+#text-align {
+    text-align: center;
 }
