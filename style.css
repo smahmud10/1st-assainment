@@ -12,12 +12,9 @@ h1 {
     text-align: center;
 }
 
-section {
+.flexible-content {
     display: flex;
-    margin-bottom: 150px;
-    
-
-
+    margin-bottom: 50px;
 }
 
 .determine {
@@ -50,9 +47,7 @@ section {
     color: royalblue;
 }
 
-#text-align {
-    text-align: center;
-}
+#h1-content{margin-bottom: 10px;}
 
 .mission-background {
     background-color: thistle;
@@ -81,12 +76,12 @@ section {
 
 .mission {
     display: flex;
-    margin: 150px;
+    margin-left: 180px;
 
 }
 
 .illustrator {
-    height: 100px;
+    height: 80px;
     width: 120px;
 
 }
