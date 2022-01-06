@@ -4,5 +4,37 @@ body {
 }
 
 .h1-color {
-    color: skyblueclear;
+    color: turquoise;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+section {
+    display: flex;
+
+}
+
+.determine {
+    width: 29%;
+    margin-left: 10%;
+
+}
+
+.determine img {
+    width: 100%;
+}
+
+.headline {
+    border-left: 4px solid yellowgreen;
+    padding-left: 10px;
+    border-radius: 2px 2px 2px 2px;
+}
+
+.explore-buton {
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(226, 34, 12);
+    background-image: linear-gradient(rgb(0, 162, 255), rgb(221, 255, 71))
 }
